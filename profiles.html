@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trainer Profiles</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@300;600&display=swap">
+  <style>
+    body {
+      font-family: 'Figtree', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .articles {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    article {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      max-width: 320px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .article-wrapper {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    figure {
+      margin: 0;
+      height: 180px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .article-body h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 26px;
+      margin: 10px 0;
+      color: #ff4d4d;
+    }
+
+    .article-body p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #555;
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+      justify-content: center;
+    }
+
+    .social-links a {
+      display: inline-block;
+      color: #333;
+      transition: transform 0.3s;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.2);
+    }
+
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    .read-more {
+      display: flex;
+      align-items: center;
+      color: #ff4d4d;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: color 0.3s;
+    }
+
+    .read-more:hover {
+      color: #ff3333;
+    }
+
+    .register-btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+      text-align: center;
+    }
+
+    .register-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<section class="articles">
+  <!-- Trainer Card 1 -->
+  <article>
+    <div class="article-wrapper">
+      <figure>
+        <img src="trainer.jfif" alt="Strength and Conditioning Coach" />
+      </figure>
+      <div class="article-body">
+        <h2>Strength & Conditioning Coach</h2>
+        <p>
+          Works with athletes to improve performance through strength training and injury prevention strategies.
+          <br><b>Contact:</b> +93123456789<br>
+          <b>E-mail:</b> trainer1@gmail.com
+        </p>
+        
+        <div class="social-links">
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/tiktok.png" alt="TikTok"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn"></a>
+        </div>
+
+        <a href="#" class="read-more">Learn More
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+
+        <!-- Register Button -->
+        <a href="registration.html" class="border-btn">Register</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Trainer Card 2 -->
+  <article>
+    <div class="article-wrapper">
+      <figure>
+        <img src="trainer1.jfif" alt="HIIT Trainer" />
+      </figure>
+      <div class="article-body">
+        <h2>HIIT Trainer</h2>
+        <p>
+          Specializes in intense exercise bursts to optimize calorie burn and improve cardiovascular fitness.
+          <br><b>Contact:</b> +92312678698<br>
+          <b>E-mail:</b> trainer2@gmail.com
+        </p>
+        
+        <div class="social-links">
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/tiktok.png" alt="TikTok"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn"></a>
+        </div>
+
+        <a href="#" class="read-more">Learn More
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+
+        <a href="registration.html" class="border-btn">Register</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Trainer Card 3 -->
+  <article>
+    <div class="article-wrapper">
+      <figure>
+        <img src="trainer2.jfif" alt="Nutrition Coach" />
+      </figure>
+      <div class="article-body">
+        <h2>Nutrition Coach</h2>
+        <p>
+          Provides dietary advice and meal planning for fitness goals, including weight management and muscle gain.
+          <br><b>Contact:</b> +968 9472 2715<br>
+          <b>E-mail:</b> Sahilsayyed0259@gmail.com
+        </p>
+        
+        <div class="social-links">
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/tiktok.png" alt="TikTok"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook"></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn"></a>
+        </div>
+
+        <a href="#" class="read-more">Learn More
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+
+        <a href="registration.html" class="border-btn">Register</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+</body>
+</html>

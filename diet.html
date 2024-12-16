@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style type="text/css">
+       * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+header {
+    background-color: #ff0000; /* Red header */
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.diet-overview, .diet-images, .diet-chart {
+    margin-bottom: 30px;
+}
+
+.diet-overview h2 {
+    color: #ff0000; /* Red headings */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.diet-chart {
+    background-color: rgba(34, 34, 34, 0.8); /* Dark background for the chart */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ff0000; /* Red border */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff0000; /* Red header for table */
+    color: #fff; /* White text */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff0000; /* Red footer */
+}
+
+@media (max-width: 600px) {
+    .image-grid {
+        grid-template-columns: 1fr; /* Stack images on small screens */
+    }
+}
+
+   </style>
+    <title>Diet Plan</title>
+</head>
+<body>
+    <header>
+        <h1>Diet Plan for Healthy Life</h1>
+    </header>
+    
+    <div class="container">
+        <section class="diet-overview">
+            <h2>Your Weekly Diet Plan</h2>
+            <p>Follow our structured diet plan to achieve your health goals.</p>
+        </section>
+
+        <section class="diet-images">
+            <h3>Healthy Food Options</h3>
+            <div class="image-grid">
+                <img src="image9.jpg" alt="Healthy Meal 1">
+                <img src="image2.jpg" alt="Healthy Meal 2">
+                <img src="image3.jpg" alt="Healthy Meal 3">
+                <img src="image5.jpg" alt="Healthy Meal 4">
+                <img src="image8.jpg" alt="Healthy Meal 4">
+                <img src="image1.jpg" alt="Healthy Meal 4">
+                <img src="image4.jpg" alt="Healthy Meal 4">
+                <img src="image6.jpg" alt="Healthy Meal 4">
+
+            </div>
+        </section>
+
+        <section class="diet-chart">
+            <h3>Weekly Diet Chart</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Breakfast</th>
+                        <th>Lunch</th>
+                        <th>Dinner</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Oatmeal with fruits</td>
+                        <td>Grilled chicken salad</td>
+                        <td>Steamed vegetables</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Smoothie bowl</td>
+                        <td>Quinoa with veggies</td>
+                        <td>Fish with brown rice</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Scrambled eggs with toast</td>
+                        <td>Turkey wrap</td>
+                        <td>Vegetable stir-fry</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Greek yogurt with honey</td>
+                        <td>Chickpea salad</td>
+                        <td>Pasta with spinach</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Fruit salad</td>
+                        <td>Beef and broccoli</td>
+                        <td>Lentil soup</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Pancakes with maple syrup</td>
+                        <td>Salmon with asparagus</td>
+                        <td>Chicken stir-fry</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Avocado toast</td>
+                        <td>Vegetable curry</td>
+                        <td>Stuffed peppers</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Diet Plan Website</p>
+    </footer>
+</body>
+</html>

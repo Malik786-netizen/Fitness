@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Single Trainer Card</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@300;600&display=swap">
+  <style>
+    body {
+      font-family: 'Figtree', sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      width: 320px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+      margin: 10px 0;
+      color: #ff4d4d;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin: 10px 0;
+    }
+
+    .social-links a {
+      color: #333;
+      transition: transform 0.3s;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.2);
+    }
+
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    .register-btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+    }
+
+    .register-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <img src="gym.jfif" alt="Trainer Image">
+  <h2>Strength & Conditioning Coach</h2>
+  <p>
+    Works with athletes to improve performance through strength training and injury prevention strategies.
+    <br><b>Contact:</b> +968 9472 2715<br>
+    <b>E-mail:</b> Sahilsayyed0259@gmail.com
+  </p>
+  
+  <div class="social-links">
+    <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/tiktok.png" alt="TikTok"></a>
+    <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram"></a>
+    <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook"></a>
+    <a href="#"><img class="icon" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn"></a>
+  </div>
+
+  <a href="registration.html" class="border-btn">Register</a>
+</div>
+
+</body>
+</html>
